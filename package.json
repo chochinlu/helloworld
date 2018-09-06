@@ -1,5 +1,5 @@
 {
-  "name": "helloworld",
+  "name": "ohhelloworld",
   "version": "0.0.1",
   "description": "just for testing npm publish",
   "main": "lib/helloworld.js",
