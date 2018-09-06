@@ -18,7 +18,7 @@
     "webpack-cli": "^3.1.0",
     "yargs": "^12.0.1"
   },
-  "keywords": [],
+  "keywords": ["webpack", "babel"],
   "author": "Cho-Ching Lu <chochinlu@gmail.com>",
   "license": "MIT"
 }

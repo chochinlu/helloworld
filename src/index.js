@@ -1,3 +1,2 @@
-const {greeting} = require('./hello');
-
-exports.greeting = greeting;
+import {greeting} from './hello';
+export {greeting};
