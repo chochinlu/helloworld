@@ -1,6 +1,6 @@
 {
   "name": "ohhelloworld",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "just for testing npm publish",
   "main": "lib/ohhelloworld.min.js",
   "scripts": {
