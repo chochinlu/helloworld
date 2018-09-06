@@ -2,7 +2,7 @@
   "name": "ohhelloworld",
   "version": "0.0.1",
   "description": "just for testing npm publish",
-  "main": "lib/helloworld.js",
+  "main": "lib/ohhelloworld.min.js",
   "scripts": {
     "build": "webpack --env dev && webpack --env build",
     "dev": "webpack --progress --colors --watch --env dev"
