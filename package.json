@@ -1,6 +1,6 @@
 {
   "name": "ohhelloworld",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "The webpack4/babel7 boilerplate for test publishing npm.",
   "files": [
     "lib/ohhelloworld.min.js"
@@ -8,7 +8,7 @@
   "main": "lib/ohhelloworld.min.js",
   "scripts": {
     "clean": "rimraf lib/",
-    "build": "webpack --env dev && webpack --env build",
+    "build": "npm run clean && webpack --env build",
     "dev": "webpack --progress --colors --watch --env dev"
   },
   "devDependencies": {
@@ -28,6 +28,13 @@
     "babel",
     "boilerplate"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chochinlu/helloworld.git"  
+  },
+  "bugs": {
+    "url": "https://github.com/chochinlu/helloworld/issues"  
+  },
   "author": "Cho-Ching Lu <chochinlu@gmail.com>",
   "license": "MIT"
 }
